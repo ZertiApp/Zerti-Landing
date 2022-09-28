@@ -1,0 +1,100 @@
+.navbar {
+    width: 100vw;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 50px;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: var(--navbar-background-color);
+    z-index: 100;
+}
+
+.buttons {
+    display: flex;
+    gap: 30px;
+}
+
+.themeButton {
+    width: 40px;
+    height: 40px;
+    border-radius: 5px;
+    background-color: transparent;
+    color: var(--text-color);
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+    padding: 5px;
+}
+
+.themeButton:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+.themeButton .hidden {
+    display: none;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+    height: 40px;
+    cursor: pointer;
+}
+
+.logo-svg {
+    height: 100%;
+    color: var(--text-color);
+}
+
+.link {
+    height: 40px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    text-decoration: none;
+    color: var(--text-color);
+    font-size: clamp(0.9rem, 1.2vw, 1.2rem);
+    font-weight: 500;
+    border: 2px solid var(--text-color);
+    border-radius: 5px;
+    padding: 5px 15px;
+}
+
+.link svg {
+    height: 60%;
+    color: var(--text-color);
+}
+
+@media screen and (max-width: 999px) {
+    .navbar {
+        height: 60px;
+        padding: 10px 20px;
+    }
+
+    .buttons {
+        gap: 15px;
+    }
+
+    .themeButton {
+        width: 35px;
+        height: 35px;
+    }
+
+    .link {
+        height: 35px;
+    }
+
+    .logo-svg {
+        height: 65%;
+    }
+
+    
+    
+}
