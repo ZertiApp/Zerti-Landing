@@ -5,17 +5,19 @@ import Academy from "./Pages/Academy";
 import Enterprise from "./Pages/Enterprise";
 import Intro from "./Pages/Intro";
 import People from "./Pages/People";
-import Extras from './Pages/Extras';
+import Extras from "./Pages/Extras";
 import Footer from "./Components/Footer";
+import { Route, Routes } from "react-router-dom";
+import PrivacyPolicy from './Pages/PrivacyPolicy';
 
 function App() {
 	useEffect(() => {
 		document.querySelectorAll("a").forEach((link) => {
-			link.addEventListener("click", e => onLinkClick(e, link));
+			link.addEventListener("click", (e) => onLinkClick(e, link));
 		});
 		return () => {
 			document.querySelectorAll("a").forEach((link) => {
-				link.removeEventListener("click", e => onLinkClick(e, link));
+				link.removeEventListener("click", (e) => onLinkClick(e, link));
 			});
 		};
 	}, []);
@@ -32,15 +34,23 @@ function App() {
 	};
 
 	return (
-		<div>
-			<Navbar />
-			<Intro />
-			<People />
-			<Enterprise />
-			<Academy />
-			<Extras />
-			<Footer />
-		</div>
+		<Routes>
+			<Route exact path="/privacy-policy" element={<PrivacyPolicy />} />
+			<Route
+				path="/"
+				element={
+					<div>
+						<Navbar />
+						<Intro />
+						<People />
+						<Enterprise />
+						<Academy />
+						<Extras />
+						<Footer />
+					</div>
+				}
+			/>
+		</Routes>
 	);
 }
 
