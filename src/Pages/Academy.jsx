@@ -5,7 +5,7 @@ export default function Academy() {
 	return (
 		<section className="section reverse" id="academy">
 			<div className="ilustration-container">
-				<img src={School} className="ilustration" />
+				<img src={School} className="ilustration" alt="ilustration" />
 			</div>
 
 			<div className="content">

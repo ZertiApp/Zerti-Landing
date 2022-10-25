@@ -75,6 +75,7 @@ export default function Navbar() {
 function ThemeButton({ theme, handleModeChange }) {
 	return (
 		<button
+			aria-label="change theme"
 			className={styles.themeButton}
 			/* className={`flex w-10 h-10 items-center justify-center p-2 text-sm text-gray-500 rounded-lg hover:bg-gray-100 focus:outline-none dark:text-gray-100 dark:hover:bg-gray-800`} */
 			onClick={handleModeChange}

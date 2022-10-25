@@ -9,7 +9,7 @@ export default function Extras() {
 		<section className="extras" id="team">
 			<Tilt tiltMaxAngleX={2} tiltMaxAngleY={2} className="item">
 				<img src={check} alt="" />
-				<h3 className="title">Nuestro standard</h3>
+				<h2 className="title">Nuestro standard</h2>
 				<p className="description">
 					Nuestro token creado para los certificados fue validado como EIP de Ethereum.
 				</p>
@@ -19,7 +19,7 @@ export default function Extras() {
 			</Tilt>
 			<Tilt tiltMaxAngleX={2} tiltMaxAngleY={2} className="item">
 				<img src={shield} alt="" />
-				<h3 className="title">Tus datos</h3>
+				<h2 className="title">Tus datos</h2>
 				<p className="description">
 					Nosotros guardamos tus datos de una forma encriptada y segura.
 				</p>
@@ -29,7 +29,7 @@ export default function Extras() {
 			</Tilt>
 			<Tilt tiltMaxAngleX={2} tiltMaxAngleY={2} className="item expand">
 				<img src={team} alt="" />
-				<h3 className="title">Conoce al equipo</h3>
+				<h2 className="title">Conoce al equipo</h2>
 				<p className="description">Encontra informacion sobre los founders de Zerti.</p>
 				<a className="more" href="#">
 					Conoce mas
