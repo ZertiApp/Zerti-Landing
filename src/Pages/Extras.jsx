@@ -2,6 +2,7 @@ import React from "react";
 import shield from "../assets/shield.png";
 import check from "../assets/check.png";
 import team from "../assets/team.png";
+import paper from "../assets/paper.png";
 import Tilt from "react-parallax-tilt";
 
 export default function Extras() {
@@ -28,10 +29,10 @@ export default function Extras() {
 				</a>
 			</Tilt>
 			<Tilt tiltMaxAngleX={2} tiltMaxAngleY={2} className="item expand">
-				<img src={team} alt="" />
-				<h2 className="title">Conoce al equipo</h2>
-				<p className="description">Encontra informacion sobre los founders de Zerti.</p>
-				<a className="more" href="#">
+				<img src={paper} alt="" />
+				<h2 className="title">Lee nuestro whitepaper</h2>
+				<p className="description">Encontra mas información sobre el proyecto.</p>
+				<a className="more" href="/Zerti-Whitepaper.pdf">
 					Conoce mas
 				</a>
 			</Tilt>

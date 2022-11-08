@@ -52,11 +52,11 @@ export default function Navbar() {
 				<ThemeButton theme={theme} handleModeChange={handleModeChange} />
 				<a
 					className={styles.link}
-					href="https://app.zerti.com.ar/"
+					href="https://beta.zerti.com.ar/"
 					target="_blank"
 					rel="noopener noreferrer"
 				>
-					Ir a la app
+					Proba la beta
 					<svg viewBox="0 0 14 15" fill="none" xmlns="http://www.w3.org/2000/svg">
 						<path
 							d="M13 1.5L1 13.5M13 11.5L13 1.5L3 1.5"
