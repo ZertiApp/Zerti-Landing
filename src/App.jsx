@@ -7,6 +7,8 @@ import Intro from "./Pages/Intro";
 import People from "./Pages/People";
 import Extras from './Pages/Extras';
 import Footer from "./Components/Footer";
+import { Route, Routes } from "react-router-dom";
+import PrivacyPolicy from './Pages/PrivacyPolicy';
 
 function App() {
 	useEffect(() => {
@@ -32,15 +34,23 @@ function App() {
 	};
 
 	return (
-		<div>
-			<Navbar />
-			<Intro />
-			<People />
-			<Enterprise />
-			<Academy />
-			<Extras />
-			<Footer />
-		</div>
+		<Routes>
+			<Route exact path="/privacy-policy" element={<PrivacyPolicy />} />
+			<Route
+				path="/"
+				element={
+					<div>
+						<Navbar />
+						<Intro />
+						<People />
+						<Enterprise />
+						<Academy />
+						<Extras />
+						<Footer />
+					</div>
+				}
+			/>
+		</Routes>
 	);
 }
 
