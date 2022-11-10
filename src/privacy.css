@@ -1,0 +1,76 @@
+#privacy {
+    background-color: #f5f5f5;
+    border: 1px solid #e5e5e5;
+    border-radius: 4px;
+    padding: 30px;
+    margin-bottom: 10px;
+}
+
+#privacy h1 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+
+#privacy h2 {
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+
+#privacy h3 {
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+
+#privacy h4 {
+    font-size: 1.25rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+
+#privacy h5 {
+    font-size: 1rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+
+#privacy h6 {
+    font-size: 0.875rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+
+#privacy p {
+    font-size: 1rem;
+    font-weight: 400;
+    margin-bottom: 1rem;
+}
+
+#privacy a {
+    font-size: 1rem;
+    font-weight: 400;
+    margin-bottom: 1rem;
+}
+
+#privacy ul {
+    font-size: 1rem;
+    font-weight: 400;
+    margin-bottom: 1rem;
+    width: fit-content;
+}
+
+#privacy ol {
+    font-size: 1rem;
+    font-weight: 400;
+    margin-bottom: 1rem;
+}
+
+#privacy li {
+    list-style-position: outside;
+    font-size: 1rem;
+    font-weight: 400;
+    margin-bottom: 1rem;
+    margin-left: 20px;
+}
