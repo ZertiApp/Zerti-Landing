@@ -8,9 +8,9 @@ export default function Enterprise() {
 				<span className="overtitle">Necesitas talento?</span>
 				<h1 className="title">Zerti for enterprise</h1>
 				<p className="subtitle">
-					Encontra perfiles verificados y validados.<br></br>
-					Procesos de filtrado y screening integrados. <br></br>
-					Emision de certificados.
+					• Encontra perfiles verificados y validados<br></br>
+					• Procesos de filtrado y screening integrados <br></br>
+					• Emision de certificados
 				</p>
 				<div className="actions">
 					<button className="btn">Conoce mas</button>

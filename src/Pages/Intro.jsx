@@ -10,8 +10,8 @@ export default function Intro() {
 	return (
 		<section className="section intro" id="about">
 			<div className="content">
-				<h1 className="title">La Seguridad de tu carrera profesional</h1>
-				<p className="subtitle">Unite a la nueva plataforma profesional desentralizada</p>
+				<h1 className="title">La seguridad de tu carrera profesional</h1>
+				<p className="subtitle">Unite a la nueva plataforma profesional descentralizada</p>
 				<div className="actions">
 					<a href="#people" className="btn primary">Asegura tu perfil</a>
 					<a href="#enterprise" className="btn">Encontra talento</a>

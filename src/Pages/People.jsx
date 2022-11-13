@@ -12,9 +12,9 @@ export default function People() {
                 <span className="overtitle">Tenes talento?</span>
 				<h1 className="title">Zerti for people</h1>
 				<p className="subtitle">
-					Asegura tu perfil con la tecnologia blockchain.<br></br>
-					Mostra tu perfil profesional seguro al mundo. <br></br>
-					Descentraliza tu carrera.
+					Asegura tu perfil en la blockchain •<br></br>
+					Mostra tu perfil profesional seguro al mundo • <br></br>
+					Descentraliza tu carrera •
 				</p>
 				<div className="actions">
 					<button className="btn">Conoce mas</button>

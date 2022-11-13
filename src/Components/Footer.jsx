@@ -17,7 +17,7 @@ export default function Footer() {
 						/>
 					</svg>
 				</h3>
-				<p className={styles.slogan}>La Seguridad de tu carrera profesional</p>
+				<p className={styles.slogan}>La seguridad de tu carrera profesional</p>
 				<div className={styles.socials}>
 					<a href="https://github.com/ZertiApp" target="_blank" rel="noreferrer" aria-label="github">
 						<svg viewBox="0 0 22 23" fill="none" xmlns="http://www.w3.org/2000/svg">
