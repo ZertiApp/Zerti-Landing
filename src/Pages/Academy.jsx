@@ -9,15 +9,15 @@ export default function Academy() {
 			</div>
 
 			<div className="content">
-				<span className="overtitle">Generas talento?</span>
+				<span className="overtitle">Generás talento?</span>
 				<h1 className="title">Zerti for academy</h1>
 				<p className="subtitle">
-					Certifica a tus estudiantes •<br></br>
-					Mostra tu institucion a traves de tu gente • <br></br>
-					Organiza todos tus certificados •
+					Certificá a tus estudiantes •<br></br>
+					Mostrá tu institución a traves de tu gente • <br></br>
+					Organizá todos tus certificados •
 				</p>
 				<div className="actions">
-					<button className="btn">Conoce mas</button>
+					<button className="btn">Conocé más</button>
 				</div>
 			</div>
 		</section>

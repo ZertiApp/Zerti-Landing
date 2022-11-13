@@ -9,15 +9,15 @@ export default function People() {
 			</div>
 
 			<div className="content">
-                <span className="overtitle">Tenes talento?</span>
+                <span className="overtitle">Tenés talento?</span>
 				<h1 className="title">Zerti for people</h1>
 				<p className="subtitle">
-					Asegura tu perfil en la blockchain •<br></br>
-					Mostra tu perfil profesional seguro al mundo • <br></br>
-					Descentraliza tu carrera •
+					Asegurá tu perfil en la blockchain •<br></br>
+					Mostrá tu perfil profesional seguro al mundo • <br></br>
+					Descentralizá tu carrera •
 				</p>
 				<div className="actions">
-					<button className="btn">Conoce mas</button>
+					<button className="btn">Conocé más</button>
 				</div>
 			</div>
 		</section>

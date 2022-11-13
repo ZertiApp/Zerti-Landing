@@ -16,7 +16,7 @@ export default function Extras() {
 					Nuestro token creado para los certificados, el ERC5516, fue validado como EIP de Ethereum.
 				</p>
 				<a className="more" href="https://eips.ethereum.org/EIPS/eip-5516" target="_blank">
-					Conoce más
+					Conocé más
 				</a>
 			</Tilt>
 			{/* <Tilt tiltMaxAngleX={2} tiltMaxAngleY={2} className="item">
@@ -39,10 +39,10 @@ export default function Extras() {
 			</Tilt> */}
 			<Tilt tiltMaxAngleX={2} tiltMaxAngleY={2} className="item">
 				<img src={paper} alt="" />
-				<h2 className="title">Lee nuestro whitepaper</h2>
-				<p className="description">Encontra mas información sobre el proyecto.</p>
+				<h2 className="title">Leé nuestro whitepaper</h2>
+				<p className="description">Encontrá mas información sobre el proyecto.</p>
 				<a className="more" href="/Zerti-Whitepaper.pdf">
-					Descargalo acá
+					Descargaló acá
 				</a>
 			</Tilt>
 			

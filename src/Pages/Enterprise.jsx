@@ -5,15 +5,15 @@ export default function Enterprise() {
 	return (
 		<section className="section" id="enterprise">
 			<div className="content">
-				<span className="overtitle">Necesitas talento?</span>
+				<span className="overtitle">Necesitás talento?</span>
 				<h1 className="title">Zerti for enterprise</h1>
 				<p className="subtitle">
-					• Encontra perfiles verificados y validados<br></br>
+					• Encontrá perfiles verificados y validados<br></br>
 					• Procesos de filtrado y screening integrados <br></br>
-					• Emision de certificados
+					• Emisión de certificados
 				</p>
 				<div className="actions">
-					<button className="btn">Conoce mas</button>
+					<button className="btn">Conocé más</button>
 				</div>
 			</div>
 

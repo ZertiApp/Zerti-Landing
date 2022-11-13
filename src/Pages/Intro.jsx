@@ -13,8 +13,8 @@ export default function Intro() {
 				<h1 className="title">La seguridad de tu carrera profesional</h1>
 				<p className="subtitle">Unite a la nueva plataforma profesional descentralizada</p>
 				<div className="actions">
-					<a href="#people" className="btn primary">Asegura tu perfil</a>
-					<a href="#enterprise" className="btn">Encontra talento</a>
+					<a href="#people" className="btn primary">Asegurá tu perfil</a>
+					<a href="#enterprise" className="btn">Encontrá talento</a>
 				</div>
 			</div>
 
