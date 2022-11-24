@@ -39,7 +39,7 @@ function App() {
 			<Route
 				path="/"
 				element={
-					<div>
+					<>
 						<Navbar />
 						<Intro />
 						<People />
@@ -47,7 +47,7 @@ function App() {
 						<Academy />
 						<Extras />
 						<Footer />
-					</div>
+					</>
 				}
 			/>
 		</Routes>
