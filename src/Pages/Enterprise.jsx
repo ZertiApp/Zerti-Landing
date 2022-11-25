@@ -12,9 +12,9 @@ export default function Enterprise() {
 					• Procesos de filtrado y screening integrados <br></br>
 					• Emisión de certificados
 				</p>
-				<div className="actions">
+				{/* <div className="actions">
 					<button className="btn">Conocé más</button>
-				</div>
+				</div> */}
 			</div>
 
 			<div className="ilustration-container">

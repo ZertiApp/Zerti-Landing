@@ -16,9 +16,9 @@ export default function Academy() {
 					Mostrá tu institución a traves de tu gente • <br></br>
 					Organizá todos tus certificados •
 				</p>
-				<div className="actions">
+				{/* <div className="actions">
 					<button className="btn">Conocé más</button>
-				</div>
+				</div> */}
 			</div>
 		</section>
 	);

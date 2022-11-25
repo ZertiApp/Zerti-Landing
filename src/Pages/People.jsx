@@ -16,9 +16,9 @@ export default function People() {
 					Mostrá tu perfil profesional seguro al mundo • <br></br>
 					Descentralizá tu carrera •
 				</p>
-				<div className="actions">
+				{/* <div className="actions">
 					<button className="btn">Conocé más</button>
-				</div>
+				</div> */}
 			</div>
 		</section>
 	);
