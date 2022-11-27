@@ -26,7 +26,7 @@ html, body {
 	scroll-snap-type: y mandatory;
 }
 
-section {
+section, footer {
 	scroll-snap-align: center;
 	scroll-snap-stop: always;
 }
