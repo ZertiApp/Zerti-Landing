@@ -5,6 +5,7 @@ import Academy from "./Pages/Academy";
 import Enterprise from "./Pages/Enterprise";
 import Intro from "./Pages/Intro";
 import People from "./Pages/People";
+import About from "./Pages/About";
 import Extras from './Pages/Extras';
 import Footer from "./Components/Footer";
 import { Route, Routes } from "react-router-dom";
@@ -42,9 +43,10 @@ function App() {
 					<>
 						<Navbar />
 						<Intro />
+						<About />
 						<People />
-						<Enterprise />
 						<Academy />
+						<Enterprise />
 						<Extras />
 						<Footer />
 					</>
