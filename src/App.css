@@ -70,8 +70,8 @@ body {
 	align-items: flex-end;
 }
 
-.section.intro .content {
-	width: 34vw;
+.section.intro .content, .section.objetivo .content {
+	width: 40vw;
 }
 
 .section .title {
@@ -82,7 +82,7 @@ body {
 .section .subtitle {
 	font-size: clamp(1rem, 1.8vw, 1.6rem);
 	font-weight: 200;
-	font-family: "DM Mono", sans-serif;
+	font-family: "DM Sans", sans-serif;
 	line-height: 150%;
 }
 
@@ -90,7 +90,7 @@ body {
 	font-size: clamp(1rem, 1.5vw, 1.5rem);
 	word-wrap: break-word;
 	font-weight: 200;
-	font-family: "DM Mono", sans-serif;
+	font-family: "DM Sans", sans-serif;
 }
 
 .section .actions {
@@ -127,6 +127,16 @@ body {
 	border-color: var(--primary-color-hover);
 }
 
+.ilustration-container.business {
+	justify-content: center;
+	width: clamp(300px, 30vw, 500px);
+	aspect-ratio: 1;
+}
+
+.ilustration-container .business {
+	height: 100%;
+}
+
 .handshake-container {
 	position: relative;
 }
@@ -143,7 +153,7 @@ body {
 	filter: blur(26px);
 }
 
-.handshake {
+.floating {
 	animation: floating 3s ease-in-out infinite;
 }
 
@@ -209,7 +219,7 @@ body {
 		padding: 50px 20px;
 	}
 
-	.section.intro {
+	.section.intro, .section.objetivo {
 		flex-direction: column;
 		justify-content: center;
 		align-items: center;
@@ -218,21 +228,22 @@ body {
 		padding: 0 20px;
 	}
 
-	.section.intro .content {
+	.section.intro .content, .section.objetivo .content {
 		align-items: center;
+		width: 80vw;
 	}
 
-	.section .content,
-	.section.intro .content {
+	.section:not(.intro, .objetivo) .content {
+		padding-bottom: 40%;
 		width: 100%;
 	}
 
-	.section .ilustration-container:not(.handshake) {
+	.section .ilustration-container:not(.handshake, .business) {
 		position: absolute;
-		height: 40vh;
+		height: 30vh;
 		width: auto;
-		right: -120px;
-		top: 65%;
+		right: -100px;
+		top: 58%;
 	}
 
 	.section.reverse .ilustration-container.people {
@@ -250,6 +261,11 @@ body {
 
 	.section .ilustration-container.handshake {
 		height: 20vh;
+		width: auto;
+	}
+	
+	.section .ilustration-container.business {
+		height: 30vh;
 		width: auto;
 	}
 

@@ -9,6 +9,7 @@ import Extras from './Pages/Extras';
 import Footer from "./Components/Footer";
 import { Route, Routes } from "react-router-dom";
 import PrivacyPolicy from './Pages/PrivacyPolicy';
+import Objetivo from "./Pages/Objetivo";
 
 function App() {
 	useEffect(() => {
@@ -42,6 +43,7 @@ function App() {
 					<>
 						<Navbar />
 						<Intro />
+						<Objetivo />
 						<People />
 						<Enterprise />
 						<Academy />

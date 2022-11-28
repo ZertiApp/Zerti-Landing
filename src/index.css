@@ -21,6 +21,7 @@ html, body {
 
 #root {
 	height: 100vh;
+	overflow-x: hidden;
 	overflow-y: overlay;
 	scroll-behavior: smooth;
 	scroll-snap-type: y mandatory;
