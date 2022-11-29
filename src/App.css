@@ -228,6 +228,9 @@ body {
 }
 
 @media screen and (max-width: 999px) {
+	.mockup {
+		display: none;
+	}
 	.extras .item.expand {
 		align-items: flex-start;
 	}
