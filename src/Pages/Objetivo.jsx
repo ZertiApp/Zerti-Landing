@@ -1,15 +1,23 @@
-import React from "react";
-import { ReactComponent as HandShake } from "../assets/handshake.svg";
+import React, { useEffect, useState } from "react";
+import { ReactComponent as HandShake } from "../assets/mockup.svg";
+import Spline from "@splinetool/react-spline";
 
 export default function Objetivo() {
-	return (
-		<section className="section objetivo reverse" id="objetivo">
-			<div className="ilustration-container handshake floating">
-				<div className="handshake-container">
-					<HandShake className="ilustration" />
-				</div>
-			</div>
+	const [spline, setSpline] = React.useState(null);
+	useEffect(() => {
+		let i = setInterval(() => {
+			if (spline?._resizeObserver) {
+				spline._resizeObserver.disconnect();
+				clearInterval(i);
+			}
+		}, 100);
 
+		return () => {
+			clearInterval(i);
+		};
+	}, []);
+	return (
+		<section className="section objetivo" id="objetivo">
 			<div className="content">
 				<span className="overtitle">Que hacemos?</span>
 				<h1 className="title">Nuestro objetivo</h1>
@@ -18,9 +26,27 @@ export default function Objetivo() {
 					títulos emitidos por las instituciones académicas, organizaciones y empresas; otorgandole
 					a nuestros usuarios un perfil verificable, confiable y transparente.
 				</p>
-				{/* <div className="actions">
-					<button className="btn">Conocé más</button>
-				</div> */}
+				<div className="actions">
+					<a href="#people" className="btn primary">
+						Asegurá tu perfil
+					</a>
+					<a href="#enterprise" className="btn">
+						Encontrá talento
+					</a>
+				</div>
+			</div>
+
+			<div className="ilustration-container mockup">
+				<div className="handshake-container">
+					{/* <HandShake className="ilustration" /> */}
+					<Spline
+						onLoad={(spline) => {
+							setSpline(spline);
+						}}
+						className="mockup"
+						scene="https://prod.spline.design/zaMdwNe44ARj3t4P/scene.splinecode"
+					/>
+				</div>
 			</div>
 		</section>
 	);

@@ -40,7 +40,12 @@ body {
 	text-align: end;
 }
 
-.section .ilustration-container {
+.section.intro {
+	background: linear-gradient(213.78deg, rgba(68, 184, 255, 0.2) -8.52%, rgba(56, 67, 79, 0) 29.58%),
+		linear-gradient(157.62deg, rgba(123, 63, 228, 0.3) -8.2%, rgba(123, 63, 228, 0) 57.32%);
+}
+
+.section .ilustration-container:not(.mockup) {
 	width: 35%;
 	display: flex;
 	justify-content: flex-end;
@@ -70,13 +75,18 @@ body {
 	align-items: flex-end;
 }
 
-.section.intro .content, .section.objetivo .content {
+.section.intro .content,
+.section.objetivo .content {
 	width: 40vw;
 }
 
 .section .title {
 	font-size: clamp(2rem, 4vw, 4.5rem);
 	font-weight: 200;
+}
+
+.section.intro .title {
+	font-weight: 600;
 }
 
 .section .subtitle {
@@ -139,6 +149,14 @@ body {
 
 .handshake-container {
 	position: relative;
+	height: 100%;
+	width: 100%;
+}
+
+.mockup {
+	height: 75vh !important;
+	width: auto !important;
+	aspect-ratio: 1139 / 1745;
 }
 
 .ilustration-container.handshake .handshake-container:before {
@@ -219,31 +237,40 @@ body {
 		padding: 50px 20px;
 	}
 
-	.section.intro, .section.objetivo {
+	.section .content {
+		gap: 20px;
+	}
+
+	.section.intro,
+	.section.objetivo {
 		flex-direction: column;
 		justify-content: center;
 		align-items: center;
-		gap: 100px;
+		gap: 70px;
 		text-align: center;
-		padding: 0 20px;
+		padding: 50px 20px 0 20px;
 	}
 
-	.section.intro .content, .section.objetivo .content {
+	.section.objetivo {
+		gap: 10px;
+	}
+
+	.section.intro .content,
+	.section.objetivo .content {
 		align-items: center;
 		width: 80vw;
 	}
 
 	.section:not(.intro, .objetivo) .content {
-		padding-bottom: 40%;
 		width: 100%;
 	}
 
-	.section .ilustration-container:not(.handshake, .business) {
+	.section .ilustration-container:not(.handshake, .mockup, .business) {
 		position: absolute;
 		height: 30vh;
 		width: auto;
-		right: -100px;
-		top: 58%;
+		right: -120px;
+		top: 65%;
 	}
 
 	.section.reverse .ilustration-container.people {
@@ -259,11 +286,11 @@ body {
 		transform: rotate(90deg) scale(-1, 1);
 	}
 
-	.section .ilustration-container.handshake {
-		height: 20vh;
+	.section .mockup {
+		height: 40vh !important;
 		width: auto;
 	}
-	
+
 	.section .ilustration-container.business {
 		height: 30vh;
 		width: auto;
@@ -286,7 +313,8 @@ body {
 	#people {
 		scroll-margin-top: 80px;
 	}
-	#enterprise, #academy {
+	#enterprise,
+	#academy {
 		scroll-margin-top: -100px;
 	}
 }
