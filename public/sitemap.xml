@@ -3,13 +3,25 @@
       xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
       xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
-            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd"
+      xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
 <!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
 
 
 <url>
   <loc>https://zerti.com.ar/</loc>
-  <lastmod>2023-03-01T18:55:42+00:00</lastmod>
+  <image:image>
+    <image:loc>https://www.zerti.com.ar/icon-192x192.png</image:loc>
+  </image:image>
+  <image:image>
+    <image:loc>https://www.zerti.com.ar/icon-256x256.png</image:loc>
+  </image:image>
+  <image:image>
+    <image:loc>https://www.zerti.com.ar/icon-384x384.png</image:loc>
+  </image:image>
+  <image:image>
+    <image:loc>https://www.zerti.com.ar/icon-512x512.png</image:loc>
+  </image:image>
 </url>
 
 
